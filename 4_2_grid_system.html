@@ -125,10 +125,12 @@
     </div>
 
     <!-- AUTO LAYOUT -->
-    <div>
-      <div style="border:1px solid #333">Auto Layout</div>
-      <div style="border:1px solid #333">Auto Layout</div>
-      <div style="border:1px solid #333">Auto Layout</div>
+<!-- when the screen shrinks so that the third div goes underneath, the proportion 
+     gets break and the first div has the same width than the second one. -->
+    <div class="row"> 
+      <div class="col" style="border:1px solid #333">Auto Layout 1</div>
+      <div class="col-6" style="border:1px solid #333">Auto Layout 2</div>
+      <div class="col-4"  style="border:1px solid #333">Auto Layout 3</div>
     </div>
 
     <!-- EQUAL WIDTH STACKED -->
